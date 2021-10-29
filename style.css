@@ -1,0 +1,539 @@
+/*tag selectors*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    margin: 40px 115px 25px 60px;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.3rem;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+p {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Class and ID selectors*/
+
+
+
+
+/*Main Nav*/
+#nav-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 0;
+
+}
+
+#nav-1 {
+    width: 50%;
+    margin-right: 65px;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.list-item {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 5px;
+    border-radius: 20px;
+
+}
+
+.list-item:hover {
+    background-color: #303030;
+}
+
+.nav-text {
+    color: white;
+    text-decoration: none;
+    padding: 20px 8px;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#nav-logo {
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 5;
+    padding-left: 20px;
+
+}
+
+#logo-text {
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    padding: 17px 0px 17px 25px;
+    border-radius: 20px;
+}
+
+#sign-up {
+    text-align: center;
+    display: inline-block;
+    padding: 17px 45px 17px 3px;
+}
+
+#sign-up-text:hover {
+    background-color: black;
+    color: white;
+}
+
+#sign-up-text {
+    color: black;
+    text-decoration: none;
+    padding: 9px 12px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-icon1 {
+    filter: invert(1);
+    height: 14px;
+    width: 14px;
+    margin-left: 8px;
+}
+
+.nav-icon2 {
+    filter: invert(1);
+    height: 14px;
+    width: 14px;
+    margin-left: 8px;
+
+}
+
+.nav-icon3 {
+    filter: invert(1);
+    height: 14px;
+    width: 14px;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+/* Header */
+
+#header {
+    height: 650px;
+    background-image: url("images/header.jpg");
+    background-size: cover;
+}
+
+#nav-box {
+    background-color: white;
+    float: left;
+    margin: 65px 0px 0px 65px;
+    padding-bottom: 50px;
+}
+
+/*Small Nav Header*/
+#small-nav {
+    border-bottom: 1px solid #DCDCDC;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.small-item-text {
+    text-decoration: none;
+    color: black;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.small-item-text:hover {
+    color: #303030;
+}
+
+.small-item {
+    margin: 30px 30px 30px 30px;
+}
+
+
+.small-nav-icon {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+}
+
+.box-1-text {
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 30px 30px 30px 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.box-1-text:visited {
+    color: black;
+}
+
+.box-1-button {
+    display: block;
+    margin: 30px 30px 30px 60px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    font-size: 1rem;
+}
+
+.box-1-button:hover {
+    background-color: #303030;
+}
+
+
+/* Business*/
+#business {
+    background-image: url("images/business.png");
+    background-size: 100% 100%;
+
+}
+
+/* THE BOX ALIGN CLASS BELOW IS HOW IM GOING TO STRUCTURE THE BULK OF MY CONTENT FROM NOW ON. I LIKE UBER'S DESIGN
+   BECAUSE IT HAS A BOLD UNIFORM GEOMETRIC BRANDING, THIS IS REFLECTED IN THE WEBSITE. THERE IS LOTS OF ALIGNMENT 
+   AND UNIFORMITY IN TERMS OF LAYOUT. I AM REALISING NOW HOW I COULD HAVE APPROACHED THIS PROJECT IN A DIFFERENT WAY
+   DONE IT IN HALF THE TIME. IT HAS PUSHED ME OUT OF MY COMFORT ZONE AND IVE DEFINATELY LEARNED SOMTHING BECAUSE OF IT */
+
+.box-align {
+    padding: 55px 70px;
+}
+
+.business-text {
+    padding-bottom: 30px;
+}
+
+.business-button {
+    display: block;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 25px 15px 25px;
+}
+
+.business-button:hover {
+    background-color: #303030;
+}
+
+
+/* SAFETY Section*/
+
+#safety {
+    padding-top: 10px;
+}
+
+.safety-pic {
+    height: 360px;
+    width: 545px;
+}
+
+.safety-pic:hover {
+    filter: grayscale(100%)
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.safety-text {
+    padding-top: 18px;
+    font-size: 1rem;
+}
+
+.safety-title {
+    padding-top: 18px;
+    font-size: 1.15rem;
+}
+
+.safety-link {
+    color: black;
+
+    font-size: 1.06rem;
+    line-height: 9;
+    margin-right: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-underline-offset: 8px;
+    text-decoration-color: #DCDCDC;
+}
+
+.safety-link:hover {
+    color: #303030;
+}
+
+
+/* ABOUT US */
+
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+
+}
+
+.about-image {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+}
+
+/* LOVE */
+
+#love {
+    background-color: #F5F5F5;
+}
+
+
+.love-item {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DCDCDC;
+    padding-bottom: 10px;
+}
+
+.love-image {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    border-bottom: solid 2.5px transparent;
+}
+
+.love-image:hover {
+    filter: invert(1);
+
+}
+
+.love-text {
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 85px;
+    margin-right: 25px;
+}
+
+.love-text:hover {
+    color: #303030;
+
+}
+
+/* SIGN-UP */
+
+.sign-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 65px;
+
+}
+
+.sign-item {
+    border-bottom: 1px solid black;
+}
+
+.sign-item:hover {
+    border-bottom: 2.5px solid black;
+}
+
+.sign-text {
+    padding-right: 260px;
+    margin-bottom: 40px;
+}
+
+
+/* FOOTER */
+
+#footer-main {
+    color: white;
+    background-color: black;
+}
+#footer-main:hover{
+    cursor: crosshair;
+    caret-color: white;
+}
+
+
+.footer-logo {
+    padding: 90px 70px 0 70px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+}
+
+.footer-text {
+    padding: 40px 70px 0 70px;
+    font-size: 0.9rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+}
+
+
+#wrapper {
+    margin: 80px 270px 0px 0px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-item {
+    text-decoration: none;
+    color: white;
+    line-height: 2.5;
+    font-size: 0.9rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.footer-title {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.bullets {
+    list-style: none;
+}
+
+.footer-list {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* footer nav */
+
+.footer-nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-icon{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.foot-icon{
+    filter: invert(1);
+    height: 20px;
+    width: 20px;
+}
+
+
+#social1{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 0 25px;
+    border-radius: 20px;
+}
+
+#social2{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 450px 0 0;
+    border-radius: 20px;
+}
+  
+#social3{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+.daniel{
+    background-color: black;
+}
+.lol{
+    color: white;
+    padding: 20px 0 5px 20px;
+}
+
+/* PROJECT TAKE-AWAYS
+.I learned a good amount in this project. Soo much so, that upon completion, I instantly knew that If I was to
+attempt the project again I would be able to do it in half the time and probably with half the amount of CSS.
+
+.I was a little overwhelmed when I first started the project and didnt know where to begin. I just wanted to see 
+somthing on the page so I immediately started getting the HTML done so that I had something to work with. In hindsight 
+If I had analysed the layout and structure of the sight first I could have saved myself lots of time, and again, lots of css.
+
+.I chose the UBER website because I like the fact that the branding has lots of geometrical shapes and alignment of layout and text.
+I didnt fully understand flexbox, margin/padding or position: when I started the project so my lack of planning and foresight
+was closely linked to my lack of coding ability. I still dont understand flexbox and position: as much as I would like to so I'll take some 
+intermediate and advanced CSS tutorials.
+
+.I was around halfway through the project when I realised that I could have made maybe 10 classes for; "containers" to align
+all the content on the page and to style all the text and I could have used these throughout the entire project. 
+almost every elemnt on this website has its own class which is poor coding and not DRY. 
+I could go back and refactor the code but I feel like I have spent enough time on this project at the moment.
+I will come back to this project though in a few weeks and treat it like a refactoring project.
+despite the uniformity in the site I still used 60 instances of margin and padding. probably only need to be half of that.
+
+29/10/2021.
+
+
+*/
